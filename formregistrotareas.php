@@ -9,8 +9,8 @@
     <form action="registrotareas.php" method="post">
         <label for="">usuario</label>
         <input type="text" name="nombre" id="">
-        <label for="">direccion</label>
-        <input type="text" name="direc">
+        <label for="">descripcion</label>
+        <input type="text" name="descript">
         <label for="">Estado</label>
         <input type="text" name="estado">
         <input type="submit" value="enviar">
