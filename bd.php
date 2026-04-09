@@ -5,7 +5,7 @@
     $baseDatos="tastflow";
 
     $conexion= new mysqli($direccion,$usuario,$contraseña,$baseDatos);
-    if($conexion->conect_error){
+    if($conexion->connect_error){
         echo "No se pudo conectar";
     }
 ?>
