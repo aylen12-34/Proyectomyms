@@ -49,7 +49,7 @@
         <h2>Registrar tarea</h2>
 
         <div class="m">
-            <label>Usuario</label>
+            <label>nombre</label>
             <input type="text" name="nombre" required>
         </div>
 
