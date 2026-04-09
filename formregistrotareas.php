@@ -9,7 +9,9 @@
             display: flex;
             flex-direction: column;
             width: 200px;
+            border: 3px solid;
         }
+
     </style>
 </head>
 <body>
