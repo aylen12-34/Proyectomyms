@@ -9,10 +9,19 @@
             background-color: purple;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             color: blue;
-        }
+            padding: 30px;
+            border: 4px solid black;
+        };
+        p{
+            color: darkblue;
+            border: 5px solid black;
+            
+        };
     </style>
 </head>
 <body>
+    <p>coso sin importancia</p>
+
     <?php
     require "bd.php"
     $nombre=$_POST['nombre'];
@@ -21,7 +30,7 @@
 
     $sql ="INSERT INTO tareas (nombre,descript,estado) VALUES ('$nombre',' $descripcion','$estado')";
     if($conexion->query($sql)=== TRUE){
-        echo"Se registro la informacion";
+        echo"Se guardo y envio la informacion";
     }
 ?>
 </body>
