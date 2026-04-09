@@ -16,13 +16,24 @@
 </head>
 <body>
     <form action="registrotareas.php" method="post">
-        <label for="">usuario</label>
-        <input type="text" name="nombre" id="">
-        <label for="">descripcion</label>
-        <input type="text" name="descript">
-        <label for="">Estado</label>
-        <input type="text" name="estado">
-        <input type="submit" value="enviar">
+        <h2>Registrar tarea</h2>
+
+        <div class="m">
+            <label>nombre</label>
+            <input type="text" name="nombre" required>
+        </div>
+
+        <div class="m">
+            <label>Descripción</label>
+            <input type="text" name="descript" required>
+        </div>
+
+        <div class="m">
+            <label>Estado</label>
+            <input type="text" name="estado" required>
+        </div>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
